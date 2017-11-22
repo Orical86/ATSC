@@ -7,6 +7,11 @@ body{
 	background-color: #2A2C2B
 }
 
+body #letterhead{
+	color: #DC3522;
+	font-weight: bold;
+}
+
 /* global */
 .container{
 	width: 80%;
@@ -27,6 +32,7 @@ ul{
 	padding-left: 20px;
 	padding-right: 20px;
 	color:#1E1E20;
+	font-weight: bold;
 }
 
 /* header */
@@ -63,7 +69,7 @@ header #branding h1{
 
 header nav{
 	float:right;
-	margin-top: 0px;
+	margin-top: 40px;
 }
 
 header .highlight, header .current a{
@@ -79,9 +85,19 @@ header a:hover{
 /* showcase */
 #showcase{
 	min-height: 400px;
-	background:url('../images/Squadr.png') no-repeat 0 -200px;
 	text-align: center;
 	color: #D9CB9E;
+	width: 100%;
+
+}
+
+#showcase{
+	background: url('../images/Squadr.png');
+	background-color: #1E1E20;
+	width: 100%
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 #showcase h1{
@@ -100,6 +116,7 @@ header a:hover{
 	padding: 15px;
 	color: #D9CB9E;
 	background: #374140;
+	border-top: #DC3522 3px solid;
 }
 
 #nesletter h1{
@@ -133,4 +150,25 @@ header a:hover{
 
 #boxes .box img{
 	width: 90px;
+}
+
+#box_two{
+	margin-top: 20px;
+}
+
+#box_two .boxx{
+	float: left;
+	text-align: center;
+	width: 30%;
+	padding: 10px;
+}
+
+#box_two .boxx img{
+	width: 90px;
+}
+
+footer{
+	background-color: #1E1E20;
+	color: #DC3522;
+	font-weight: bold;
 }
